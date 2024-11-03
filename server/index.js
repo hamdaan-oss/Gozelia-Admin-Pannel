@@ -4,11 +4,11 @@ import mongoose from 'mongoose';
 import cors from 'cors';
 
 // Import routes
-import productsRouter from './routes/productsRoutes.js';
-import couponRouter from './routes/couponRoutes.js'; // Adjusted this to match your coupon route file
-import userRouter from './routes/userRoutes.js';
-import orderRouter from './routes/orderRoutes.js';
-import fulfilledOrdersRoutes from './routes/fulfilledOrders.js'; 
+import productsRouter from './routes/ProductsRoutes.js';
+import couponRouter from './routes/CouponRoutes.js'; // Adjusted this to match your coupon route file
+import userRouter from './routes/UserRoutes.js';
+import orderRouter from './routes/OrderRoutes.js';
+import fulfilledOrdersRoutes from './routes/FulFilledOrders.js'; 
 
 
 const app = express();
